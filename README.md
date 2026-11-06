@@ -1,4 +1,4 @@
-# Viajes con Karen (sitio + panel de administración)
+# Gestor de Viajes (sitio + panel de administración)
 
 React + Redux Toolkit + Vite + Tailwind.
 
