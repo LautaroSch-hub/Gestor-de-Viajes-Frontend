@@ -11,7 +11,7 @@ npm run dev
 
 ## Dos modos (se elige con `VITE_API_URL` en `.env`)
 - **Con backend** (`VITE_API_URL=http://localhost:3000`): usa la API del proyecto `agencia-viajes-backend` (PostgreSQL + Cloudinary). Login real con el usuario creado en el backend. Los pasos están en el README del backend.
-- **Demo** (`VITE_API_URL` vacío): todo se guarda en el `localStorage` del navegador, con login de prueba `admin@viajesconkaren.com` / `admin1234`. Sirve para probar el panel sin servidor.
+- **Demo** (`VITE_API_URL` vacío): todo se guarda en el `localStorage` del navegador, con login de prueba `lautarosch@hotmail.com` / `$12345Abcd`. Sirve para probar el panel sin servidor.
 
 La conmutación está en `src/services/api.js`; las implementaciones son `api.remote.js` (fetch a la API) y `api.demo.js` (navegador). Tienen las mismas funciones, por eso el resto de la app no cambia.
 
