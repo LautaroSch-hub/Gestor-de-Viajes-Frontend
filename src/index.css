@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-ivory text-brand-dark antialiased;
+}
+
+.input {
+  @apply w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm outline-none focus:border-brand focus:ring-2 focus:ring-brand/20;
+}
+.label {
+  @apply mb-1 block text-xs font-semibold uppercase tracking-wide text-stone-500;
+}
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-lg border border-stone-300 bg-white px-4 py-2.5 text-sm font-semibold text-brand-dark transition hover:bg-stone-50;
+}
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark;
+}
